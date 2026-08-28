@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local configuration and secrets. The example file is the only one that ships.
+.env
+.env.*
+!.env.example
